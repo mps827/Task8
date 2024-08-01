@@ -1,0 +1,62 @@
+// Extra Small devices (landscape phones,320px and up)
+$site-width-xs: 320px;
+// Small devices (landscape phones, 568px and up)
+$site-width-sm: 568px;
+// Medium devices (tablets, 834px and up)
+$site-width-md: 834px;
+// Large devices (desktops, 1194px and up)
+$site-width-lg: 1194px;
+// Extra large devices (large desktops, 1440px and up)
+$site-width-xl: 1440px;
+
+/*====== margin and padding ======== */
+$p-1: 0.25rem;
+$p-2: 0.5rem;
+$p-3: 0.75rem;
+$p-4: 1rem;
+$p-5: 1.25rem;
+$p-6: 1.5rem;
+$p-8: 2rem;
+$p-9: 2.5rem;
+$p-10: 3rem;
+$p-11: 3.5rem;
+
+//  colors
+
+$gray-01: #f9fafb;
+$gray-02: #f8f8f8;
+$gray-03: #ececec;
+$gray-04: #d0d5dd;
+$gray-05: #d6dae1;
+$gray-06: #cbcbcb;
+$gray-07: #757575;
+$gray-08: #383838;
+$gray-09: #101828;
+
+$primary-01: #f0f7ff;
+$primary-02: #79b0f5;
+$primary-03: #3797ff;
+$primary-04: #007aff;
+$primary-05: #005cc1;
+$primary-06: #014d9f;
+
+$red-01: rgba(217, 0, 0, 0.1);
+$red-02: #e88b8b;
+$red-03: #d92d20;
+$red-04: #d90000;
+$red-light-color: rgba(217, 0, 0, 0.1);
+$green-color: #009f49;
+$green-light-color: rgba(0, 159, 73, 0.1);
+$orange-color: #f37500;
+$orange-light-color: rgba(243, 117, 0, 0.1);
+$linear-gradient-color: linear-gradient(269deg, #007aff 0%, #0066d6 100%);
+$text-color: #667085;
+$white-color: #fff;
+$black-color: #000;
+$custom-gray-600: #475467;
+$custom-gray-700: #344054;
+$custom-gray-200: #eaecf0;
+$custom-light-blue: #c7e0fc;
+$custom-green-color: #009f491a;
+$custom-red-color: #d900001a;
+$custom-blue-light-color: #DEEEFF;

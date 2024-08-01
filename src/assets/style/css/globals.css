@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "persian-number";
+  src: url("../../../assets/fonts/Vazir-Medium-FD-WOL.ttf");
+}
+body,
+html,
+#__next {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  @apply dark:bg-Nero bg-white;
+  direction: rtl;
+}
+.radio-input {
+  width: 20px !important;
+  height: 20px !important;
+  margin: 2px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.shadowMain {
+  box-shadow: 0 1px 2px 0 #1018280f, 0 1px 3px 0 #1018281a;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.my-datePicker div:last-child {
+  right: 0 !important;
+  margin: 0 auto;
+  left: 7px !important;
+}
+.td-overflow {
+  max-width: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.react-toast-notifications__toast__icon-wrapper {
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.react-toast-notifications__toast__content,
+.react-toast-notifications__toast__dismiss-button {
+  display: flex;
+  align-items: center;
+}
+.react-toast-notifications__toast {
+  direction: rtl !important;
+}
+select:not([size]) {
+  background-position: left 0.75rem center;
+  padding-right: 0.875rem !important;
+}
+.password-input {
+  position: relative;
+}
+.password-input-button {
+  position: absolute;
+  top: 43px;
+  left: 10px;
+  background-color: transparent;
+}
+.eyeIcon {
+  color: #555;
+}
+
+.CheckIcon {
+  color: lightgreen;
+}
+.persianNumber {
+  font-family: "persian-number" !important;
+  font-weight: 400;
+}
+.goBack {
+  background-color: transparent !important;
+}
+
+.input-with-counter {
+  position: relative;
+}
+.show-input-length {
+  position: absolute;
+  top: 46px;
+  left: 10px;
+  background-color: transparent;
+  color: #2b63e1;
+  font-size: 12px;
+}
+.datePickerWrapper {
+  position: relative;
+}
+
+.my-datePicker {
+  position: absolute !important;
+  bottom: 0;
+  top: -4px;
+  right: -8px;
+}
+
+.top {
+  top: 0px;
+}
+
+.down {
+  top: -80px;
+}
+
+.up {
+  top: 0px;
+}
+
+.up,
+.down {
+  background: rgba(0, 255, 242, 0.363);
+  box-shadow: 0px 0px 5px black;
+  padding: 8px;
+}
+
+.input-with-counter {
+  position: relative;
+}
+.show-input-length {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+  color: #f3f3f3;
+  font-size: 16px;
+}
+
+.farsiNum{
+  font-family: 'IranSansXFaNum';
+}

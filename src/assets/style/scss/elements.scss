@@ -1,0 +1,98 @@
+@import "./variables";
+@import "./mixins";
+.my-btn {
+  display: inline-flex;
+  height: 20px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  cursor: pointer;
+  border-radius: 50px;
+  @include shadows-xs;
+  font-style: normal;
+  font-weight: 600;
+  width: fit-content;
+  line-height: 20px; /* 142.857% */
+}
+.xs-btn {
+  @include button-size("xs");
+}
+.small-btn {
+  @include button-size("small");
+}
+.larg-btn {
+  @include button-size("larg");
+}
+.primary-btn {
+  background: linear-gradient(269deg, $primary-04 0%, #0066d6 100%);
+  @include button-color($linear-gradient-color, $primary-05, $white-color);
+  &:hover {
+    background: $primary-06;
+  }
+}
+.red-btn {
+  @include button-color($red-03, $red-04, $white-color);
+  &:hover {
+    background: $red-04;
+  }
+}
+.secondary-red-btn {
+  @include button-color($white-color, $gray-04, $red-04);
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  &:hover {
+    color: black;
+    background: $gray-02;
+  }
+}
+.secondary-btn {
+  @include button-color($white-color, $gray-04, $text-color);
+}
+.white-btn {
+  @include button-color($white-color, $gray-04, $custom-gray-700);
+}
+.disable-btn {
+  cursor: not-allowed;
+  color: $gray-06;
+  background-color: $gray-05;
+  border: 1px solid $gray-06;
+}
+.blockButton {
+  width: 100%;
+}
+.badge {
+  max-height: 28px;
+  display: flex;
+  padding: 4px 12px;
+  align-items: center;
+  border-radius: 4px;
+  mix-blend-mode: multiply;
+  span {
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px; /* 128.571% */
+  }
+}
+.warrning-badge {
+  background-color: $orange-light-color;
+  span {
+    color: $orange-color;
+  }
+}
+.succed-badge {
+  background-color: $green-light-color;
+  span {
+    color: $green-color;
+  }
+}
+.error-badge {
+  background-color: $red-light-color;
+  span {
+    color: $red-04;
+  }
+}
