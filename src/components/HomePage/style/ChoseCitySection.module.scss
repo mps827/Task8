@@ -1,0 +1,58 @@
+@import "../../../assets/style/scss/variables";
+@import "../../../assets/style/scss/_mixins.scss";
+.ChoseCitySection {
+  width: 100vw;
+  height: 485px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  @include medium-screen {
+    display: none;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+}
+.selectBoxSection {
+  position: absolute;
+  top: 0;
+  right: 80px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.metaPing {
+  text-shadow: 0px 4px 78.3px rgba(0, 143, 255, 0.55);
+  /* Box/Head/H1 */
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.branding {
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.search {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.searchCity {
+  width: 450px;
+}

@@ -1,0 +1,10 @@
+@import "../../../assets//style//scss/mixins";
+
+.footerIcon {
+  width: 36px;
+  height: 36px;
+  @include medium-screen {
+    width: 25px;
+    height: 25px;
+  }
+}

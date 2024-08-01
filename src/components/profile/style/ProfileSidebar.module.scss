@@ -1,0 +1,116 @@
+.sidebarLayout {
+  display: flex;
+  width: 325px;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  border-radius: 20px;
+  height: fit-content;
+}
+.profileInfo {
+  display: flex;
+  padding: 12px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+.usernameBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  .userDetail {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    .username {
+      text-align: right;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  .userIcon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+  }
+}
+.userNumber {
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.itemBox {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 13px;
+  align-self: stretch;
+  border-radius: 20px;
+}
+.sidebarItem {
+  display: flex;
+  padding: 11px 12px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 16px;
+  cursor: pointer;
+  .itemIcon {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+  }
+  .itemTitle {
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+.sidebarItem:hover {
+  background: var(--clicked2, rgba(178, 204, 255, 0.2));
+}
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  .socialIcon {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+}
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 1px;
+  opacity: 0.3;
+}

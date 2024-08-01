@@ -1,0 +1,28 @@
+.formLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+.locationBox {
+  min-width: 800px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.headerTitle {
+  text-align: right;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0%; /* 0px */
+}
+.footer {
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,53 @@
+.cityLayout {
+  display: flex;
+  flex-direction: row;
+  width: 798px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  border-radius: 20px;
+}
+.formBox {
+  display: flex;
+  padding: 18px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.formHeader {
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.label {
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cityName {
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.menuBox {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-image: url("../../../assets/images/citySelection.jpg");
+}
+.menuItem {
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

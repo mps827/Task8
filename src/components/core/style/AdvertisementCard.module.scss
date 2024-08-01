@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1 0 0;
+  border-radius: 24px;
+  box-shadow: 6px 8px 24px 0px rgba(0, 0, 0, 0.13);
+  width: 305px;
+}
+
+.image {
+  border-radius: 20px;
+}
+
+.title {
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.price {
+  text-align: right;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.location {
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.detail {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  gap: 20px;
+}

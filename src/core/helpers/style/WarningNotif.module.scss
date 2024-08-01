@@ -1,0 +1,23 @@
+.notifLayout {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 500px;
+  height: 250px;
+  border-radius: 40px;
+  padding: 24px;
+}
+.notifTitle {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btnIcon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}

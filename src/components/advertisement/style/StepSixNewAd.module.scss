@@ -1,0 +1,86 @@
+.formLayout {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+}
+.formBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 61px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 116px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detailsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.detailHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.detailHeaderIcon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.detailHeaderTitle {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0%; /* 0px */
+}
+.details {
+  display: inline-flex;
+  padding: 20px 26px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  min-width: 577px;
+  border-radius: 12px;
+}
+.featureCard {
+  display: flex;
+  min-height: 67px;
+  padding: 16px 8px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  border-radius: 12px;
+  .featureTitle {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0%; /* 0px */
+  }
+}
+.footer {
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.previewBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+}

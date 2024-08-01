@@ -1,0 +1,45 @@
+.formLayout {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding: 24px 24px;
+}
+
+.detailBox {
+  min-width: 630px;
+  display: inline-flex;
+  padding: 20px 26px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: 6px 8px 24px 0px var(--Shadow-Black, rgba(0, 0, 0, 0.13));
+}
+
+.featureCard {
+  display: flex;
+  min-height: 67px;
+  padding: 16px 8px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  border-radius: 12px;
+  .featureTitle {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0%; /* 0px */
+  }
+}
+.footer {
+  display: flex;
+  width: 573px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
